@@ -15,7 +15,7 @@ import {
   isBefore,
   isAfter,
 } from "date-fns";
-import { ChevronLeftIcon, ChevronRightIcon } from "../../../icons";
+import { ChevronLeftIcon, ChevronRight } from "../../../icons";
 import {
   DatePickerContainer,
   CalendarWrapper,
@@ -145,7 +145,7 @@ export function DatePicker({
                 onClick={() => setCurrentMonth(subMonths(currentMonth, 1))}
               />
               {format(currentMonth, "MMMM yyyy")}
-              <ChevronRightIcon
+              <ChevronRight
                 onClick={() => setCurrentMonth(addMonths(currentMonth, 1))}
               />
             </Header>
