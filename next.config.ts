@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   },
   experimental: {
     serverActions: {
-      allowedOrigins: ["dashboard.staging.beammarkets.com"],
+      allowedOrigins: ["dashboard.staging.beammarkets.com","https://beam-customer-portal.onrender.com"],
     },
   },
   async redirects() {
